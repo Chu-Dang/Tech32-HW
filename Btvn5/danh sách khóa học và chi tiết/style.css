@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f6fa;
+  color: #464646;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 24px;
+  margin-bottom: 3rem;
+}
+.container .khoa-hoc {
+  max-width: 30.33%;
+}
+img {
+  height: 222px;
+}
+.khoa-hoc {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+}
+.khoa-hoc a {
+  color: #757575;
+}
+.khoa-hoc img {
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 100%;
+}
+.khoa-hoc .title {
+  font-size: 1.2rem;
+  margin: 16px 24px;
+}
+.khoa-hoc .desc {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-bottom: 16px;
+}
+.khoa-hoc .rate i {
+  color: #ffd600;
+}
+.footer {
+  background-color: #30598c;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+  line-height: 2.5em;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.footer .footer-info {
+  margin-bottom: 16px;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.footer .footer-info h4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.footer .footer-info li {
+  list-style: none;
+  font-size: 14px;
+}
+.footer .footer-info li a {
+  color: #fff;
+}
+.img {
+  margin-right: 15px;
+}
+
+/* trang chi tiet */
+.course-detail {
+  background-color: #fff;
+  margin: 0 3rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+}
+.course-detail h1 {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.course-detail p {
+  margin-bottom: 15px;
+}
+.button-back {
+  display: inline-block;
+  background-color: #28a745;
+  color: #fff;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 25%);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px 10px;
+  border-radius: 4px;
+  margin-left: 3rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.icon img {
+  width: 149px;
+  height: 36px;
+}
